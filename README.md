@@ -10,6 +10,8 @@
 | [`lab01`](lab01) | 환경 설정 및 pandas 데이터 처리 (EDA) |
 | [`lab02`](lab02) | scikit-learn을 이용한 분류(Classification)와 회귀(Regression) |
 | [`lab03`](lab03) | K-means, GMM, EM |
+| [`lab04_1`](lab04_1) | Gradient descent와 NumPy MLP (gradient check, 학습률 비교) |
+| [`lab04_2`](lab04_2) | PyTorch MLP (hidden size·학습률 그리드 탐색) |
 
 ## 폴더 구조
 
@@ -21,8 +23,8 @@ lab0X/
 └── tests/             # 공개 테스트 (test_public.py)
 ```
 
-- `lab01`~`lab03`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다.
-- `submissions/`: lab01~lab03 제출물(리포트, 그림, 결과 파일 등).
+- `lab01`~`lab04_2`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다.
+- `submissions/`: lab01~lab04_2 제출물(리포트, 그림, 결과 파일 등).
 
 ## 실행 환경
 
