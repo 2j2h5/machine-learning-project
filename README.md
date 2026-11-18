@@ -13,6 +13,7 @@
 | [`lab04_1`](lab04_1) | Gradient descent와 NumPy MLP (gradient check, 학습률 비교) |
 | [`lab04_2`](lab04_2) | PyTorch MLP (hidden size·학습률 그리드 탐색) |
 | [`lab05`](lab05) | CNN과 전이학습 (출력 크기 계산, SmallCNN, 고정 backbone) |
+| [`lab06`](lab06) | RNN과 시계열 예측 (lookahead 없는 윈도우, embargo 시간순 분할, GRU, persistence 기준선) |
 
 ## 폴더 구조
 
@@ -24,8 +25,8 @@ lab0X/
 └── tests/             # 공개 테스트 (test_public.py)
 ```
 
-- `lab01`~`lab05`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다.
-- `submissions/`: lab01~lab05 제출물(리포트, 그림, 결과 파일 등).
+- `lab01`~`lab06`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다.
+- `submissions/`: lab01~lab06 제출물(리포트, 그림, 결과 파일 등).
 
 ## 실행 환경
 
