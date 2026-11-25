@@ -15,7 +15,7 @@
 | [`lab05`](lab05) | CNN과 전이학습 (출력 크기 계산, SmallCNN, 고정 backbone) |
 | [`lab06`](lab06) | RNN과 시계열 예측 (lookahead 없는 윈도우, embargo 시간순 분할, GRU, persistence 기준선) |
 | [`lab07`](lab07) | Transformer 직접 구현 (scaled dot-product·multi-head attention, sinusoidal 위치 인코딩, encoder block, ablation) |
-| [`lab08_experiments`](lab08_experiments) | 실험 관리와 오류 분석 (run record, 다중 시드 one-factor ablation, slice별 오류 분석, 평균·표준편차 집계) |
+| [`lab08`](lab08) | 실험 관리와 오류 분석 (run record, 다중 시드 one-factor ablation, slice별 오류 분석, 평균·표준편차 집계) |
 
 ## 폴더 구조
 
@@ -27,7 +27,7 @@ lab0X/
 └── tests/             # 공개 테스트 (test_public.py)
 ```
 
-- `lab01`~`lab08_experiments`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다. lab08은 폴더 이름이 `lab08_experiments`입니다.
+- `lab01`~`lab08`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다.
 - `submissions/`: lab01~lab08 제출물(리포트, 그림, 결과 파일 등).
 
 ## 실행 환경
