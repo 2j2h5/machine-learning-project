@@ -16,6 +16,7 @@
 | [`lab06`](lab06) | RNN과 시계열 예측 (lookahead 없는 윈도우, embargo 시간순 분할, GRU, persistence 기준선) |
 | [`lab07`](lab07) | Transformer 직접 구현 (scaled dot-product·multi-head attention, sinusoidal 위치 인코딩, encoder block, ablation) |
 | [`lab08`](lab08) | 실험 관리와 오류 분석 (run record, 다중 시드 one-factor ablation, slice별 오류 분석, 평균·표준편차 집계) |
+| [`lab09`](lab09) | GAN과 DDPM 확산 모델 (8-Gaussian ring, mode coverage·high-quality 비율·샘플링 시간 비교) |
 
 ## 폴더 구조
 
@@ -27,8 +28,8 @@ lab0X/
 └── tests/             # 공개 테스트 (test_public.py)
 ```
 
-- `lab01`~`lab08`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다.
-- `submissions/`: lab01~lab08 제출물(리포트, 그림, 결과 파일 등).
+- `lab01`~`lab09`에는 추가로 `data/`, `notebooks/`, `check_submission.py`, `report_template.md`, `lab0X_concepts.pdf`가 있습니다. lab04는 `lab04_1`, `lab04_2` 두 과제로 나뉩니다.
+- `submissions/`: lab01~lab09 제출물(리포트, 그림, 결과 파일 등).
 
 ## 실행 환경
 
